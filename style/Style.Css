@@ -1,0 +1,134 @@
+body {
+    font-family: cursive;
+    font-weight: 300;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: rgb(235, 180, 78, 0.883);                              
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8s ali;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(249, 249, 249);
+}
+
+nav ul li :hover {   
+    background-color: white;
+}
+
+nav ul li a { 
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    margin-right: 10px;
+    background-color: aquamarine;
+    text-align: left;
+}
+
+a :visited {
+    color: black;
+}
+
+a :active {
+    color: orangered;
+}
+
+.img-logo {
+    width: 100px;
+    padding-top: 3px;
+    margin: 15px;
+    background-color: aqua;
+}
+
+nav ul {
+    background-color: rgba(98, 97, 97, 0.883);
+}
+
+.banner {
+    max-width: 100%;
+}
+
+.featured {
+    background-color: rgb(235, 180, 78, 0.883);
+}
+
+.featured iframe {
+    margin: 0 auto;
+    margin-top: 110px;
+}
+
+.fp-video {
+    width: 55%;
+    padding: 2em;
+    overflow-y: visible;
+}
+
+.ft-articulo {
+    width: 30%;
+    padding: 2em;
+    vertical-align: top;
+}
+
+article {
+    padding: 30px;
+    background-color:aqua;
+    margin: 20px 0;
+}
+
+article h1 {
+    border-bottom: solid thin black;
+}
+
+.fp-video, .ft-articulo {
+    display: inline-block;
+}   
+
+.boton-container {
+    text-align: center;
+    background-color: slateblue;
+    margin: 0 auto;
+}
+
+.boton-container a {
+    text-decoration: none;
+    color: white;
+}
+
+.boton {
+    padding: 15px;
+}
+
+.boton-container :hover {
+    background-color: rgb(83, 228, 241);
+}
+
+.art-image img {
+    margin: 0;
+    max-width: 100%;
+}
+
+.art-cont {
+    width: 740px;
+    vertical-align: top;
+}
+
+h2 {
+    margin: 0;
+    border-bottom: solid thin black;
+}
+
+footer {
+    background-color: rgb(235, 180, 78, 0.883);
+    color: blue;
+    clear: both;
+    line-height: 30px;
+    text-align: center;
+    padding: 45px;
+    
+}
